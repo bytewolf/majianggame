@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Shezhi" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.74"/>
+	<e:Image source="jiesu_json.popMsgBg1" x="409" y="188"/>
+	<e:Label id="txt" x="427" y="248" width="390" height="218" textColor="0x0B0A0A" textAlign="left" verticalAlign="justify"/>
+	<e:Image id="closeBtn" x="781" y="188" source="shezhi_json.close (2)_png" width="59" height="57"/>
+	<e:Button id="YBtn" label="确定" x="480" y="416" width="130" visible="false"/>
+	<e:Button id="NBtn" label="取消" x="654" y="416" width="128" visible="false"/>
+</e:Skin>

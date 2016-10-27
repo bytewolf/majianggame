@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DatingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dating_json.25" x="0" locked="true"/>
+	<e:Image source="dating_json.11" x="124" y="15"/>
+	<e:Image source="dating_json.11" x="282" y="59"/>
+	<e:Image source="dating_json.13" x="291" y="70"/>
+	<e:Image source="dating_json.11" x="125" y="61"/>
+	<e:Image source="dating_json.11" x="284" y="15"/>
+	<e:Image id="imagePng" x="20" y="17" width="89" height="88" source="touxiangdaoju_json.logo1"/>
+	<e:Image id="imageBtn" source="dating_json.14" x="10" y="6" locked="true"/>
+	<e:Image source="dating_json.5" horizontalCenter="-52"/>
+	<e:Image id="gonggaoBtn" source="dating_json.10" x="747" y="23" visible="false"/>
+	<e:Image id="faguiBtn" source="dating_json.8" x="922" y="22" visible="false"/>
+	<e:Image id="gengduoBtn" source="dating_json.9" x="1102" y="22" visible="false"/>
+	<e:Image source="dating_json.12" x="293" y="23"/>
+	<e:Image id="vipBtn" source="dating_json.16" x="964" y="128"/>
+	<e:Image id="gaojiBtn" source="dating_json.17" x="679" y="159"/>
+	<e:Image id="chujiBtn" source="dating_json.20" x="377" y="159"/>
+	<e:Image id="zhongjiBtn" source="dating_json.22" x="55" y="159"/>
+	<e:Image source="dating_json.18" x="88" y="485"/>
+	<e:Image source="dating_json.18" x="399" y="485"/>
+	<e:Image source="dating_json.18" x="707" y="483"/>
+	<e:Image source="dating_json.21" x="402" y="523"/>
+	<e:Image source="dating_json.19" x="706" y="517"/>
+	<e:Image source="dating_json.23" x="94" y="520"/>
+	<e:Image source="dating_json.24" horizontalCenter="0.5" bottom="-29"/>
+	<e:Image id="pinglunBtn" source="dating_json.3" x="669" y="607" visible="false"/>
+	<e:Image id="huodongBtn" source="dating_json.4" x="82" y="589" visible="false"/>
+	<e:Image id="haoyouBtn" source="dating_json.6" x="474" y="594" visible="false"/>
+	<e:Image id="xiaoxiBtn" source="dating_json.7" x="278" y="611" visible="false"/>
+	<e:Image id="jiluBtn" source="dating_json.2" x="738" y="584"/>
+	<e:Image id="shangchengBtn" source="dating_json.1" x="423" y="590"/>
+	<e:Label id="nameTxt" x="137" y="21" width="123" height="25" size="20" verticalAlign="middle" textColor="0xC3CA36"/>
+	<e:Label id="idTxt" x="320" y="66" width="93" height="25" size="20" verticalAlign="middle" textColor="0xC3CA36" text=""/>
+	<e:Label id="fangkaTxt" x="341" y="22" width="83" height="21" size="20" verticalAlign="middle" textColor="0xC3CA36"/>
+	<e:Label id="yueTxt" x="138" y="68" width="123" height="25" size="20" verticalAlign="middle" textColor="0xC3CA36"/>
+	<e:Image id="settingBtn" source="youxi_json.2" x="1088" y="19"/>
+</e:Skin>

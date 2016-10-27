@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSenSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1580391b725"/>
+	<e:Rect id="bgPng" width="1280" height="720" x="0" y="0" fillAlpha=".5" locked="true"/>
+	<e:Image source="chat_json.chatBg1" x="253" y="86" locked="true"/>
+	<e:Image id="biaoqingpngtrue" source="chat_json.commonFace1" x="267" y="98" locked="true"/>
+	<e:Image id="biaoqingpngfalse" source="chat_json.commonFace2" x="267" y="98" locked="true" visible="false"/>
+	<e:Image id="liaotianfalse" source="chat_json.commonTalk2" x="634" y="99" locked="true"/>
+	<e:Image id="liaotiantrue" source="chat_json.commonTalk1" x="635" y="97" locked="true" visible="false"/>
+	<e:Image source="chat_json.11gameTalkInput" x="325" y="564" locked="true" visible="false"/>
+	<e:Image id="sendBtn" source="chat_json.sendMsgBtn" x="795" y="562"  locked="true"/>
+	<e:EditableText width="434" height="58" x="339" y="565" size="50" textColor="0x040000" textAlign="center" visible="false"/>
+	<e:Scroller id="biaoqingScroller" width="718" height="311" x="274" y="214" visible="false">
+		<e:Group id="biaoqingGroup" horizontalCenter="1" verticalCenter="0" width="748">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+			<e:Image source="chat_json.biaoqing01" x="102" y="88"/>
+			<e:Image source="chat_json.biaoqing02" x="149" y="78"/>
+			<e:Image source="chat_json.biaoqing03" x="182" y="86"/>
+			<e:Image source="chat_json.biaoqing04" x="308" y="125"/>
+			<e:Image source="chat_json.biaoqing05" x="62" y="160"/>
+			<e:Image source="chat_json.biaoqing06" x="106" y="183"/>
+			<e:Image source="chat_json.biaoqing07" x="303" y="200"/>
+			<e:Image source="chat_json.biaoqing08" x="302" y="144"/>
+			<e:Image source="chat_json.biaoqing09" x="249" y="184"/>
+			<e:Image source="chat_json.biaoqing10" x="223" y="184"/>
+			<e:Image source="chat_json.biaoqing11" x="288" y="175"/>
+			<e:Image source="chat_json.biaoqing12" x="358" y="181"/>
+			<e:Image source="chat_json.biaoqing13" x="238" y="206"/>
+			<e:Image source="chat_json.biaoqing14" x="196" y="121"/>
+			<e:Image source="chat_json.biaoqing15" x="178" y="142"/>
+			<e:Image source="chat_json.biaoqing16" x="324" y="160"/>
+			<e:Image source="chat_json.biaoqing17" x="337" y="136"/>
+			<e:Image source="chat_json.biaoqing18" x="356" y="150"/>
+			<e:Image source="chat_json.biaoqing19" x="223" y="180"/>
+			<e:Image source="chat_json.biaoqing20" x="285" y="171"/>
+			<e:Image source="chat_json.biaoqing21" x="241" y="210"/>
+			<e:Image source="chat_json.biaoqing22" x="252" y="191"/>
+			<e:Image source="chat_json.biaoqing23" x="161" y="136"/>
+			<e:Image source="chat_json.biaoqing24" x="288" y="127"/>
+			<e:Image source="chat_json.biaoqing25" x="206" y="145"/>
+			<e:Image source="chat_json.biaoqing26" x="156" y="169"/>
+			<e:Image source="chat_json.biaoqing27" x="93" y="184"/>
+			<e:Image source="chat_json.biaoqing28" x="205" y="216"/>
+			<e:Image source="chat_json.biaoqing29" x="220" y="124"/>
+			<e:Image source="chat_json.biaoqing30" x="118" y="175"/>
+			<e:Image source="chat_json.biaoqing31" x="150" y="181"/>
+			<e:Image source="chat_json.biaoqing32" x="261" y="169"/>
+			<e:Image source="chat_json.biaoqing33" x="268" y="166"/>
+			<e:Image source="chat_json.biaoqing34" x="220" y="122"/>
+			<e:Image source="chat_json.biaoqing35" x="246" y="122"/>
+			<e:Image source="chat_json.biaoqing36" x="43" y="127"/>
+			<e:Image source="chat_json.biaoqing37" x="123" y="175"/>
+			<e:Image source="chat_json.biaoqing38" x="128" y="183"/>
+			<e:Image source="chat_json.biaoqing39" x="100" y="171"/>
+			<e:Image source="chat_json.biaoqing40" x="193" y="141"/>
+			<e:Image source="chat_json.biaoqing41" x="193" y="139"/>
+			<e:Image source="chat_json.biaoqing42" x="165" y="156"/>
+			<e:Image source="chat_json.biaoqing43" x="212" y="153"/>
+			<e:Image source="chat_json.biaoqing44" x="99" y="197"/>
+			<e:Image source="chat_json.biaoqing45" x="53" y="112"/>
+			<e:Image source="chat_json.biaoqing46" x="82" y="139"/>
+			<e:Image source="chat_json.biaoqing47" x="209" y="148"/>
+			<e:Image source="chat_json.biaoqing48" x="165" y="175"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="textScroller" width="718" height="327" x="273" y="202" locked="true" visible="false">
+		<e:Group id="textGroup">
+			<e:Label text="别给我打啊我要焖听" x="311" y="88" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="都别点哦我要搂宝了" x="311" y="88" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="感觉我的人品要爆发了" x="321" y="98" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="很高兴认识各位" x="331" y="108" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="你上大学专业是放炮系的吗" x="341" y="118" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="你这牌打的很硬气嘛" x="351" y="128" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="傻愣打牌琢磨啥呢" x="361" y="138" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="输了不要跑啊哈哈哈" x="371" y="148" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="我这点子也真是没谁了" x="381" y="158" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="这牌不出意外是雪山飞狐了" x="391" y="168" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="这牌让你打的能不能看着点下面" x="401" y="178" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:Label text="真是有钱难买上家差啊" x="411" y="188" width="650" verticalAlign="justify" textAlign="center"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="8"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:TextInput id="chatContent" x="321" y="570" width="447" height="45" />
+</e:Skin>

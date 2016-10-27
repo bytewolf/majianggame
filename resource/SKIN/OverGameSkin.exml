@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DatingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+		<e:Image source="jiesu_json.game_over_bg" x="0" y="-1" width="1280" height="720" locked="true"/>
+		<e:Image id="dianpaoPng" source="jiesu_json.dianpao" y="26" horizontalCenter="0" visible="false"/>
+		<e:Image id="liujuPng" source="jiesu_json.liuju" y="27" horizontalCenter="0" visible="false"/>
+		<e:Image id="shulePng" source="jiesu_json.lose" y="33" horizontalCenter="0" visible="false"/>
+		<e:Image id="mobaohuPng" source="jiesu_json.mobaohu" y="29" horizontalCenter="0" visible="false"/>
+		<e:Image id="jiesuPng" source="jiesu_json.nothing" y="17" horizontalCenter="0.5" visible="false"/>
+		<e:Image id="yinglePng" source="jiesu_json.win" y="27" horizontalCenter="0" visible="false"/>
+		<e:Image id="zimoPng" source="jiesu_json.zimo" y="29" horizontalCenter="0" visible="false"/>
+		<e:Image id="jiesucloseBtn" source="jiesu_json.back (2)" x="1157" y="11" locked="true"/>
+	<e:Image id="readyBtn" source="jiesu_json.start" x="779" y="628" locked="true"/>
+	<e:Image id="shareBtn" source="jiesu_json.share (2)" x="249" y="628" visible="false"/>
+	<e:Image id="changBtn" source="jiesu_json.share2" x="469" y="629" visible="false"/>
+	<e:Label id="idTxt" text="user1" x="143" y="109" locked="true"/>
+	<e:Label text="user2" x="138" y="287" id="idTxt0" locked="true"/>
+	<e:Label text="user3" x="137" y="403" id="idTxt1" locked="true"/>
+	<e:Label text="user4" x="136" y="519" id="idTxt2" locked="true"/>
+	<e:Label id="hutypeTxt" text="胡" x="278" y="102" width="410" textAlign="center" locked="true"/>
+	<e:Label id="tingTxt" text="听牌" x="719" y="101" locked="true"/>
+	<e:Label id="tingTxt0" text="听牌" x="361" y="291" locked="true"/>
+	<e:Label id="tingTxt1" text="听牌" x="358" y="407" locked="true"/>
+	<e:Label id="tingTxt2" text="听牌" x="360" y="520" locked="true"/>
+	<e:Label id="fanTxt" text="0翻" x="845" y="102" locked="true"/>
+	<e:Label id="fanTxt0" text="0翻" x="535" y="289" locked="true"/>
+	<e:Label id="fanTxt1" text="0翻" x="532" y="405" locked="true"/>
+	<e:Label id="fanTxt2" text="0翻" x="528" y="520" locked="true"/>
+	<e:Label id="fenTxt" text="0" x="942" y="102" textColor="0xE6DB0F" locked="true"/>
+	<e:Label text="0" x="635" y="287" id="fenTxt0" textColor="0xE6DB0F" locked="true"/>
+	<e:Label text="0" x="632" y="405" id="fenTxt1" textColor="0xE6DB0F" locked="true"/>
+	<e:Label x="628" y="520" id="fenTxt2" textColor="0xE6DB0F" text="0" locked="true"/>
+	<e:Group id="group" width="850" height="82" x="81" y="164" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group0" width="540" height="54" x="82" y="321" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group1" width="540" height="54" x="82" y="437" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group2" width="540" height="54" x="82" y="553" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="zhuangPng" source="jiesu_json.zhuang_icon" x="8" y="170" visible="false" locked="true"/>
+	<e:Image id="zhuangPng0" source="jiesu_json.zhuang_icon" x="11" y="313" visible="false" locked="true"/>
+	<e:Image id="zhuangPng1" source="jiesu_json.zhuang_icon" x="8" y="435" visible="false" locked="true"/>
+	<e:Image id="zhuangPng2" source="jiesu_json.zhuang_icon" x="10" y="545" visible="false" locked="true"/>
+	<e:Image source="bao_png" x="873" y="403" locked="true"/>
+	<e:Image id="baopaiPng" x="907" y="433" locked="true"/>
+	<e:Label id="roomlabel" x="92" y="647" width="611" height="45" locked="true"/>
+	<e:Label id="timeTxt" text="20" x="1028" y="648" size="45" locked="true"/>
+	<e:Group id="vipGroup" width="1282" height="724" x="0" y="0" visible="false">
+		<e:Image source="chuangjianfangjian_json.MengBgImage" x="0" y="0" locked="true"/>
+		<e:Label text="牌局结束" x="513" y="31" size="50" locked="true"/>
+		<e:Rect width="295" height="496" y="133" fillColor="0xfdfbfb" fillAlpha="0.5" x="331.5" locked="true"/>
+		<e:Rect width="295" height="496" y="132" fillColor="0xFDFBFB" fillAlpha="0.5" x="650.5" locked="true"/>
+		<e:Rect width="295" height="496" y="133" fillColor="0xFDFBFB" fillAlpha="0.5" x="969" locked="true"/>
+		<e:Rect width="295" height="496" y="133" fillColor="0xFDFBFB" fillAlpha="0.5" x="13" strokeWeight="0" locked="true"/>
+		<e:Image source="denglu_json.10" x="0" y="639" locked="true"/>
+		<e:Image id="vipccloseBtn" source="jiesu_json.back (2)" x="1165" y="20" locked="true"/>
+		<e:Image id="vipShareBtn" source="jiesu_json.share (2)" x="533" y="641" locked="true"/>
+		<e:Label text="玩家ID：" y="243" x="36"/>
+		<e:Label text="坐庄次数：" y="296" x="36"/>
+		<e:Label text="胡牌次数：" y="348" x="36"/>
+		<e:Label text="点炮次数：" y="401" x="36"/>
+		<e:Label text="摸宝次数：" y="453" x="36"/>
+		<e:Label text="宝中宝：" y="506" x="36"/>
+		<e:Label text="战绩：" y="558" x="36"/>
+		<e:Label text="玩家ID：" y="244" x="355"/>
+		<e:Label text="坐庄次数：" y="297" x="355"/>
+		<e:Label text="胡牌次数：" y="349" x="355"/>
+		<e:Label text="点炮次数：" y="402" x="355"/>
+		<e:Label text="摸宝次数：" y="454" x="355"/>
+		<e:Label text="宝中宝：" y="507" x="355"/>
+		<e:Label text="战绩：" y="559" x="355"/>
+		<e:Label text="玩家ID：" y="246" x="678"/>
+		<e:Label text="坐庄次数：" y="299" x="678"/>
+		<e:Label text="胡牌次数：" y="351" x="678"/>
+		<e:Label text="点炮次数：" y="404" x="678"/>
+		<e:Label text="摸宝次数：" y="456" x="678"/>
+		<e:Label text="宝中宝：" y="509" x="678"/>
+		<e:Label text="战绩：" y="561" x="678"/>
+		<e:Label text="玩家ID：" y="246" x="989"/>
+		<e:Label text="坐庄次数：" y="299" x="989"/>
+		<e:Label text="胡牌次数：" y="351" x="989"/>
+		<e:Label text="点炮次数：" y="404" x="989"/>
+		<e:Label text="摸宝次数：" y="456" x="989"/>
+		<e:Label text="宝中宝：" y="509" x="989"/>
+		<e:Label text="战绩：" y="561" x="989"/>
+		<e:Label id="id1" text="" x="186" y="241" width="130" verticalAlign="justify" textAlign="center" height="30"/>
+		<e:Label id="zzcs1" text="" x="181" y="293" width="134" textAlign="center"/>
+		<e:Label id="hpcs1" text="" x="180" y="347" width="134" textAlign="center"/>
+		<e:Label id="dpcs1" text="" x="180" y="402" width="134" textAlign="center"/>
+		<e:Label id="mbcs1" text="" x="182" y="453" width="134" textAlign="center"/>
+		<e:Label id="bzb1" text="" x="182" y="509" width="134" textAlign="center"/>
+		<e:Label id="code1" text="" x="111" y="571" width="134" textAlign="center" size="50" textColor="0xf1f13d"/>
+		<e:Label id="id0" text="" x="494" y="244" width="130" verticalAlign="justify" textAlign="center"/>
+		<e:Label id="zzcs0" text="" x="489" y="296" width="134" textAlign="center"/>
+		<e:Label id="hpcs0" text="" x="488" y="350" width="134" textAlign="center"/>
+		<e:Label id="dpcs0" text="" x="488" y="405" width="134" textAlign="center"/>
+		<e:Label id="mbcs0" text="" x="490" y="456" width="134" textAlign="center"/>
+		<e:Label id="bzb0" text="" x="490" y="512" width="134" textAlign="center"/>
+		<e:Label id="code0" text="" x="419" y="574" width="134" textAlign="center" size="50" textColor="0xF1F13D"/>
+		<e:Label id="id2" text="" x="812" y="245" width="130" verticalAlign="justify" textAlign="center"/>
+		<e:Label id="zzcs2" text="" x="807" y="297" width="134" textAlign="center"/>
+		<e:Label id="hpcs2" text="" x="806" y="351" width="134" textAlign="center"/>
+		<e:Label id="dpcs2" text="" x="806" y="406" width="134" textAlign="center"/>
+		<e:Label id="mbcs2" text="" x="808" y="457" width="134" textAlign="center"/>
+		<e:Label id="bzb2" text="" x="808" y="513" width="134" textAlign="center"/>
+		<e:Label id="code2" text="" x="737" y="569" width="134" textAlign="center" size="50" textColor="0xF1F13D"/>
+		<e:Label id="id3" text="" x="1127" y="246" width="130" verticalAlign="justify" textAlign="center"/>
+		<e:Label id="zzcs3" text="" x="1122" y="298" width="134" textAlign="center"/>
+		<e:Label id="hpcs3" text="" x="1121" y="352" width="134" textAlign="center"/>
+		<e:Label id="dpcs3" text="" x="1121" y="407" width="134" textAlign="center"/>
+		<e:Label id="mbcs3" text="" x="1123" y="458" width="134" textAlign="center"/>
+		<e:Label id="bzb3" text="" x="1123" y="514" width="134" textAlign="center"/>
+		<e:Label id="code3" text="" x="1052" y="576" width="134" textAlign="center" size="50" textColor="0xF1F13D"/>
+		<e:Image id="png1" x="36" y="139" width="89" height="88" source=""/>
+		<e:Image id="png0" x="352" y="139" width="89" height="88" source=""/>
+		<e:Image id="png2" x="678" y="139" width="89" height="88" source=""/>
+		<e:Image id="png3" x="989" y="139" width="89" height="88" source=""/>
+		<e:Label id="name1" text="" x="138" y="168" width="170" textAlign="center" numLines="1" wordWrap="false" height="30"/>
+		<e:Label id="name0" text="" x="458" y="164" width="170" textAlign="center" height="30"/>
+		<e:Label id="name2" text="" x="776" y="168" width="170" textAlign="center" height="30"/>
+		<e:Label id="name3" text="" x="1094" y="168" width="170" textAlign="center" height="30"/>
+	</e:Group>
+</e:Skin>

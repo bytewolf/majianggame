@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DatingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="youxi_json.14" locked="true"/>
+	<e:Group id="fangweiGroup" height="180" width="180" horizontalCenter="0" verticalCenter="0" rotation="0" anchorOffsetX="70" anchorOffsetY="90" touchEnabled="false" touchChildren="false">
+		<e:Image pixelHitTest="true" source="fengwei_png" width="180" height="180" locked="true"/>
+		<e:Image id="xi" x="0" y="0" source="xi_png" width="180" height="180" locked="true" visible="false"/>
+		<e:Image id="dong" x="0" y="0" source="dong_png" width="180" height="180" locked="true" visible="false"/>
+		<e:Image id="nan" x="0" y="0" source="nan_png" width="180" height="180" locked="true" visible="false"/>
+		<e:Image id="bei" x="0" y="0" source="bei_png" width="180" height="180" locked="true" visible="false"/>
+	</e:Group>
+	<e:Label id="timeNumText" text="15" x="548" y="269" size="50" textColor="0x0a8ff1" width="180" rotation="0" height="180" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center"/>
+	<e:Image id="shangmoPai" x="337" y="55" source="shangbgBG_png" locked="true"/>
+	<e:Image id="youmoPai" source="youBG_png" x="1080" y="126" locked="true"/>
+	<e:Image id="zuomoPai" source="zuoBG_png" x="180" y="509" locked="true"/>
+	<e:Group id="xiaGroup" width="377" height="140" x="458" y="451" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="youGroup" width="117" height="306" x="839" y="176" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="shangGroup" width="374" height="134" y="134" x="408" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="zuoGroup" width="117" height="306" x="329" y="208" locked="true">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="pengBtn" x="813" y="486" source="jiesu_json.peng_bt" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="gangBtn" x="903" y="487" source="gang_png" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="guoBtn" x="993" y="486" source="jiesu_json.cancel_bt" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="qtingBtn" x="790" y="499" source="jiesu_json.chi_ting_bt" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="pengtingBtn" x="883" y="498" source="jiesu_json.peng_ting_bt" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="chiBtn" x="905" y="486" source="jiesu_json.chi_bt" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="huBtn" x="905" y="487" source="jiesu_json.hu_bt" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="tingBtn" source="jiesu_json.ting_bt" x="905" y="486" pixelHitTest="true" visible="false" locked="true"/>
+	<e:Image id="liaotianBtn" source="youxi_json.3" y="64" right="0"/>
+	<e:Image id="shezhiBtn" source="youxi_json.2" right="0" locked="true"/>
+	<e:Image id="tuoguanBtn" source="youxi_json.4" bottom="0" right="0" visible="false"/>
+	<e:Image source="youxi_json.9" x="33" y="536" height="68"/>
+	<e:Image source="youxi_json.9" x="35" y="346" height="68"/>
+	<e:Image source="youxi_json.9" x="1143" y="327" width="90" height="68"/>
+	<e:Image source="youxi_json.9" x="242" y="115" height="68"/>
+	<e:Image id="youPng" x="1144" y="234" width="89" height="88" source="touxiangdaoju_json.logo1"/>
+	<e:Image id="shangPng" x="242" y="24" width="89" height="88" source="touxiangdaoju_json.logo1"/>
+	<e:Image id="zuoPng" x="35" y="257" width="89" height="88" source="touxiangdaoju_json.logo1"/>
+	<e:Image id="xiaPng" x="35" y="444" width="89" height="88" source="touxiangdaoju_json.logo1"/>
+	<e:Image source="youxi_json.8" x="1134" verticalCenter="-81.5" locked="true"/>
+	<e:Image source="youxi_json.8" x="26" y="434" locked="true"/>
+	<e:Image source="youxi_json.8" x="26" verticalCenter="-60.5" locked="true"/>
+	<e:Image source="youxi_json.8" x="232" y="14" locked="true"/>
+	<e:Label id="shangName" text="标签标签" x="239" y="124" width="100" height="32" size="22" textAlign="center"/>
+	<e:Label id="shangFen" text="1000000" x="237" y="157" width="100" height="32" size="22" textColor="0xdbf610" textAlign="center"/>
+	<e:Label id="zuoFen" text="100000" x="31" y="385" width="100" height="32" size="22" textAlign="center" textColor="0xDBF610"/>
+	<e:Label id="xiaFen" text="10000" x="29" y="571" width="100" height="32" size="22" textAlign="center" textColor="0xDBF610"/>
+	<e:Label id="youFen" text="10000000" x="1141" y="364" width="100" height="32" size="22" textAlign="center" textColor="0xDBF610"/>
+	<e:Label id="zuoName" text="标签标签" x="31" y="353" width="100" height="32" size="22" textAlign="center"/>
+	<e:Label id="xiaName" text="标签1231231231" x="30" y="543" width="100" height="32" size="22" textAlign="center"/>
+	<e:Label id="youName" text="标签1231231231" x="1140" y="332" width="100" height="32" size="22" textAlign="center"/>
+	<e:Image id="xiazhuangPng" source="jiesu_json.zhuang_icon" x="40" y="482" visible="false"/>
+	<e:Image id="youzhuangPng" source="jiesu_json.zhuang_icon" x="37" y="281" visible="false"/>
+	<e:Image id="shangzhuangPng" source="jiesu_json.zhuang_icon" x="242" y="55" visible="false"/>
+	<e:Image id="zuozhuangPng" source="jiesu_json.zhuang_icon" x="1144" y="284" visible="false"/>
+	<e:Group id="tuoguanGroup" width="1272" height="270" x="-2" y="442" visible="false">
+		<e:Image source="jiesu_json.qxtuoguan1" x="8" y="6" scale9Grid="24,33,429,201" width="1268"/>
+		<e:Image id="quxiaotuoguanBtn" source="jiesu_json.qxtuoguan" x="561" y="153"/>
+	</e:Group>
+	<e:Image id="vipPng" source="jiesu_json.VIP场" horizontalCenter="0" visible="false"/>
+	<e:Image id="chujiPng" source="youxi_json.1" y="13" horizontalCenter="0" visible="false"/>
+	<e:Image id="gaojiPng" source="jiesu_json.高级金币场" horizontalCenter="0" visible="false"/>
+	<e:Image id="zhongjiPng" source="jiesu_json.中级金币场" horizontalCenter="0" visible="false"/>
+	<e:Image id="shangTingPng" x="337" y="13" width="20" height="112" source="ting_icon2_png" locked="true" visible="false"/>
+	<e:Image id="youTingPng" x="1141" y="396" source="ting_icon1_png" width="112" height="22" visible="false"/>
+	<e:Image id="zuoTingPng" x="24" y="411" source="ting_icon1_png" width="112" height="22" locked="true" visible="false"/>
+	<e:Image id="xiaTingPng" x="536" y="570" source="ting_icon3_png" width="205" locked="true" visible="false"/>
+	<e:Label id="paiNumText" text="123" x="64" y="9" textColor="0xD3DD18"/>
+	<e:Label id="quanNumText" text="123" x="181" y="9" textColor="0xD3DD18" visible="false"/>
+	<e:Image id="baoKuang" x="50" y="55" source="bao_png"/>
+	<e:Image id="baoPai" x="78" y="79" width="58" height="84" source="baopai_png"/>
+	<e:Label text="牌数" x="5" y="9"/>
+	<e:Label id="quanTxt" text="圈数" x="118" y="8" visible="false"/>
+	<e:Image id="vipWanfabtn" source="rul (2)_png" x="1161" y="552" width="97" height="38" locked="true" visible="false"/>
+	<e:Label id="vipwanfaTxt" text="" x="1141" y="428" width="119" height="115" multiline="true" size="22" locked="true" visible="false"/>
+	<e:Group id="xiachatGroup" width="448" height="60" x="133" y="468" visible="false">
+		<e:Image id="xiachatPng" source="chat_json.biaoqing01" x="0" y="0" visible="false"/>
+		<e:Image id="xiachatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" width="446" visible="false"/>
+		<e:Label id="xiachatLabel" text="" x="14" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+	</e:Group>
+	<e:Group id="zuochatGroup" width="448" height="60" x="147" y="270" visible="false">
+		<e:Image id="zuochatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="zuochatLabel" text="" x="12" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+		<e:Image id="zuochatPng" source="chat_json.biaoqing01" x="00" y="0" visible="false"/>
+	</e:Group>
+	<e:Group id="shangchatGroup" width="448" height="60" x="232" y="178" visible="false">
+		<e:Image id="shangchatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="shangchatLabel" text="" x="10" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+		<e:Image id="shangchatPng" source="chat_json.biaoqing01" x="0" y="-17" visible="false"/>
+	</e:Group>
+	<e:Group id="youchatGroup" width="448" height="60" x="692" y="323" visible="false">
+		<e:Image id="youchatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="youchatLabel" text="" x="17" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+		<e:Image id="youchatPng" source="chat_json.biaoqing01" x="335" y="-44" visible="false"/>
+	</e:Group>
+</e:Skin>

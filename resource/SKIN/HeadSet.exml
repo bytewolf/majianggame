@@ -1,0 +1,33 @@
+
+<e:Skin class="NewFile" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="fagui_json.123_0009_图层-0" x="0" y="0"/>
+	<e:Image source="touxiangdaoju_json.logofr1" x="1040" y="0"/>
+	<e:Image source="touxiangdaoju_json.logofrtitle" x="733" y="176" width="216" height="63"/>
+	<e:Image id="imagePng" x="86" y="128" width="200" height="200" source="touxiangdaoju_json.logo1"/>
+	<e:Image id="headPng1" source="touxiangdaoju_json.logo1" x="488" y="272"/>
+	<e:Image id="headPng2" source="touxiangdaoju_json.logo2" x="677" y="272"/>
+	<e:Image id="headPng3" source="touxiangdaoju_json.logo3" x="872" y="271"/>
+	<e:Image id="headPng4" source="touxiangdaoju_json.logo4" x="1062" y="268"/>
+	<e:Image id="headPng5" x="488" y="454" source="touxiangdaoju_json.logo5"/>
+	<e:Image id="headPng6" source="touxiangdaoju_json.logo6" x="677" y="453"/>
+	<e:Image id="headPng7" source="touxiangdaoju_json.logo7" x="872" y="453"/>
+	<e:Image id="headPng8" source="touxiangdaoju_json.logo8" x="1062" y="453"/>
+	<e:Label text="昵称：" x="58" y="506" height="34" size="40"/>
+	<e:Label text="等级：" x="56" y="340" height="34" size="40"/>
+	<e:Label text=" I D  ：" x="51" y="452" height="34" size="40"/>
+	<e:Label id="idTxt" text="111" x="172" y="454" height="34" size="40" width="176"/>
+	<e:Label text="帐号：" x="55" y="396" height="34" size="40"/>
+	<e:Label id="zhanghaoTxt" text="11" x="170" y="399" height="34" size="40" width="209"/>
+	<e:Label id="dengjiTxt" text="1" x="172" y="343" height="34" size="40" width="217"/>
+	<e:Image id="backBtn" source="shangcheng_json.tablebk" x="36" y="16"/>
+	<e:EditableText id="nameTxt" width="308" height="52" text="" x="58" y="553" size="40" background="true" textColor="0x000000" verticalAlign="middle"/>
+	<e:Image id="okBtn" source="touxiangdaoju_json.DeterminBtn" x="60" y="614"/>
+	<e:Image id="headPngkuang1" source="touxiangdaoju_json.边框" x="471" y="251" locked="true" visible="false"/>
+	<e:Image id="headPngkuang2" source="touxiangdaoju_json.边框" x="657" y="251" locked="true" visible="false"/>
+	<e:Image id="headPngkuang3" source="touxiangdaoju_json.边框" x="852" y="251" locked="true" visible="false"/>
+	<e:Image id="headPngkuang4" source="touxiangdaoju_json.边框" x="1040" y="251" locked="true" visible="false"/>
+	<e:Image id="headPngkuang5" source="touxiangdaoju_json.边框" x="468" y="440" locked="true" visible="false"/>
+	<e:Image id="headPngkuang6" source="touxiangdaoju_json.边框" x="657" y="440" height="176" locked="true" visible="false"/>
+	<e:Image id="headPngkuang7" source="touxiangdaoju_json.边框" x="852" y="440" locked="true" visible="false"/>
+	<e:Image id="headPngkuang8" source="touxiangdaoju_json.边框" x="1042" y="440" locked="true" visible="false"/>
+</e:Skin>

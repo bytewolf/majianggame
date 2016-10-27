@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DatingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+		<e:Image source="jiesu_json.waiting" x="0" y="0" width="1280" height="720"/>
+		<e:Label id="wait_dongName" x="601" y="604" width="156" height="40" text="" textAlign="center"/>
+		<e:Label id="wait_xiName" x="601" y="36" width="127" height="28" text="" textAlign="center"/>
+	<e:Label id="wait_xiCode" x="601" y="71" width="175" height="28" text="" textAlign="center" textColor="0xc8ef06"/>
+	<e:Label id="wait_nanCode" x="971" y="362" width="160" height="28" text="" textAlign="center" textColor="0xC8EF06"/>
+	<e:Label id="wait_dongCode" x="601" y="642" width="177" height="28" text="" textAlign="center" textColor="0xC8EF06"/>
+	<e:Label id="wait_beiCode" x="168" y="360" width="171" height="28" text="" textAlign="center" textColor="0xC8EF06"/>
+		<e:Label id="wait_beiName" x="167" y="319" width="170" height="43" text="" textAlign="center"/>
+		<e:Label id="wait_nanName" x="971" y="322" width="160" height="42" text="" textAlign="center"/>
+		<e:Image id="wait_dongPng" x="495" y="599" width="85" height="80" source="touxiangdaoju_json.logo1" visible="false"/>
+		<e:Image id="wait_beiPng" x="206" y="226" width="85" height="80" source="touxiangdaoju_json.logo1" visible="false"/>
+		<e:Image id="wait_xiPng" x="495" y="24" width="85" height="80" source="touxiangdaoju_json.logo1" visible="false"/>
+		<e:Image id="wait_nanPng" x="1008" y="226" width="85" height="80" source="touxiangdaoju_json.logo1" visible="false"/>
+		<e:Image id="wait_closeBtn" source="jiesu_json.CloseWin2" x="1172" y="46"/>
+	<e:Label id="wait_xizhunbupng" text="已准备" x="792" y="46" textColor="0xEEEB05" size="45" border="true" background="true" blendMode="normal" bold="true" borderColor="0x8d02f5" cacheAsBitmap="false" backgroundColor="0x8d02f5" height="51" verticalAlign="middle" textAlign="center" width="180" visible="false"/>
+	<e:Label id="wait_nanzhunbupng" text="已准备" x="961" y="439" textColor="0xEEEB05" size="45" border="true" background="true" blendMode="normal" bold="true" borderColor="0x8d02f5" cacheAsBitmap="false" backgroundColor="0x8d02f5" height="51" verticalAlign="middle" textAlign="center" width="180" visible="false"/>
+	<e:Label id="wait_dongzhunbupng" text="已准备" x="792" y="624" textColor="0xEEEB05" size="45" border="true" background="true" blendMode="normal" bold="true" borderColor="0x8d02f5" cacheAsBitmap="false" backgroundColor="0x8d02f5" height="51" verticalAlign="middle" textAlign="center" width="180" visible="false"/>
+	<e:Label id="wait_beizhunbupng" text="已准备" x="155" y="439" textColor="0xEEEB05" size="45" border="true" background="true" blendMode="normal" bold="true" borderColor="0x8d02f5" cacheAsBitmap="false" backgroundColor="0x8d02f5" height="51" verticalAlign="middle" textAlign="center" width="180" visible="false"/>
+	<e:Label id="roomid" x="23" y="46" width="264" height="34"/>
+	<e:Image id="settingBtn" source="youxi_json.2" x="1114" y="121"/>
+	<e:Image id="chatBtn" source="youxi_json.3" x="1114" y="197"/>
+		<e:Group id="xiachatGroup" width="448" height="60" x="328" y="513" visible="false">
+		<e:Image id="xiachatPng" source="chat_json.biaoqing01" x="0" y="0" visible="false"/>
+		<e:Image id="xiachatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="xiachatLabel" text="" x="16" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+	</e:Group>
+	<e:Group id="zuochatGroup" width="448" height="60" x="23" y="374" visible="false">
+		<e:Image id="zuochatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="zuochatLabel" text="" x="17" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+		<e:Image id="zuochatPng" source="chat_json.biaoqing01" x="00" y="0" visible="false"/>
+	</e:Group>
+	<e:Group id="shangchatGroup" width="448" height="60" x="486" y="116" visible="false">
+		<e:Image id="shangchatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="shangchatLabel" text="" x="17" y="10" width="413" textColor="0x000000" verticalAlign="middle" visible="false"/>
+		<e:Image id="shangchatPng" source="chat_json.biaoqing01" x="0" y="-17" visible="false"/>
+	</e:Group>
+	<e:Group id="youchatGroup" width="448" height="60" x="827" y="341" visible="false">
+		<e:Image id="youchatBg" source="chat_json.11gameTalkInput" x="0" y="0" alpha="0.8" visible="false"/>
+		<e:Label id="youchatLabel" text="" x="17" y="10" width="411" textColor="0x000000" verticalAlign="middle" visible="false"/>
+		<e:Image id="youchatPng" source="chat_json.biaoqing01" x="335" y="-44" visible="false"/>
+	</e:Group>
+</e:Skin>

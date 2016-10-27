@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Shangcheng" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="shangcheng_json.mall_bg" x="0" y="0" width="1280" height="720"/>
+	<e:Image source="shangcheng_json.ower" x="126" y="33"/>
+	<e:Group id="daojuGroup" width="1280" height="720" x="0" y="0">
+		<e:Image source="shangcheng_json.PropBtn1" x="851" y="-3"/>
+		<e:Image id="jinbiBtn" source="shangcheng_json.coinBtn_select" x="1053" y="2"/>
+		<e:Image id="fangka1Btn" source="shangcheng_json.list_bg0" x="43" y="185"/>
+		<e:Image id="fangka2Btn" source="shangcheng_json.list_bg1" x="39" y="323"/>
+		<e:Image id="fangka3Btn" source="shangcheng_json.list_bg2" x="36" y="456"/>
+		<e:Image id="fangka4Btn" source="shangcheng_json.list_bg3" x="33" y="584"/>
+	</e:Group>
+	<e:Group id="jinbuGroup" width="1280" height="720" x="0" y="0" visible="false">
+		<e:Image source="shangcheng_json.gold" x="1068" y="-1"/>
+		<e:Image id="daojuBtn" source="shangcheng_json.daojuBtn_select" x="855" y="1"/>
+		<e:Image id="jinbi1Btn" source="shangcheng_json.list_bg_g0" x="42" y="185"/>
+		<e:Image id="jinbi2Btn" source="shangcheng_json.list_bg_g1" x="43" y="323"/>
+		<e:Image id="jinbi3Btn" source="shangcheng_json.list_bg_g2" x="41" y="461"/>
+	</e:Group>
+	<e:Image id="closeBtn" source="shangcheng_json.tablebk" x="21" y="24"/>
+</e:Skin>

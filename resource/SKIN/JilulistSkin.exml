@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JilulistSkin" width="1236" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha=".5" ellipseWidth="20" left="0" right="0" top="0" bottom="0" ellipseHeight="20"/>
+	<e:Label id="upTxt" text="标签" x="84" y="13" width="1154" textColor="0xc5e30f" size="40"/>
+	<e:Label id="downTxt" text="标签" x="84" y="73" width="1154" size="40"/>
+	<e:Label id="numTxt" text="1" x="22" y="40" textColor="0xc5e30f" size="50"/>
+</e:Skin>

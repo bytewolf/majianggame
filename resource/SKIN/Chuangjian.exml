@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Chuangjian" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="chuangjianfangjian_json.MengBgImage" x="0" y="0" width="1280" height="720"/>
+	<e:Group id="searchGroup" width="1280" height="720" x="0" y="0" locked="true">
+		<e:Image source="chuangjianfangjian_json.vip_list_bg" y="301" width="1280"/>
+		<e:Image id="shousuoBtn" source="chuangjianfangjian_json.SearchBtn1" x="1109" y="184"/>
+		<e:Image source="chuangjianfangjian_json.input" x="538" y="189"/>
+		<e:Image id="chuangjianBtn" source="chuangjianfangjian_json.create_room_btn" x="140" y="189"/>
+		<e:Image source="chuangjianfangjian_json.spe" x="427" y="667"/>
+		<e:Image source="chuangjianfangjian_json.viptitle" x="545" y="36"/>
+		<e:EditableText id="searchtxt" width="524" height="56" x="548" y="195" textColor="0x060505" size="54"/>
+		<e:Button id="roomBtn" x="28" y="373" width="1226" height="68" visible="false"/>
+		<e:Label id="idtxt" x="72" y="392" width="132" textAlign="center"/>
+		<e:Label id="nametxt" x="272" y="392" width="132" textAlign="center"/>
+		<e:Label id="numtxt" x="453" y="392" width="132" textAlign="center"/>
+		<e:Label id="fangzhutxt" x="635" y="392" width="132" textAlign="center"/>
+		<e:Label id="zuishaotxt" x="844" y="392" width="132" textAlign="center"/>
+		<e:Label id="mimatxt" x="1083" y="392" width="132" textAlign="center"/>
+		<e:Image id="closeBtn" source="jiesu_json.back (2)" x="1147" y="18"/>
+	</e:Group>
+	<e:Group id="chuangjianGroup" width="1280" height="720" x="0" y="0" visible="false">
+		<e:Image source="chuangjianfangjian_json.viptitle1" y="47" horizontalCenter="0"/>
+		<e:Image id="fanhuiBtn" source="jiesu_json.CloseWin2" x="28" y="32"/>
+		<e:Image id="jiaclick" x="671" y="305" source="1_png"/>
+		<e:Image id="hongzhongclick" source="chuangjianfangjian_json.44" x="397" y="308"/>
+		<e:Image id="louclick" source="chuangjianfangjian_json.66" x="398" y="373"/>
+		<e:Image id="hongzhonglouclick" source="hongzhonglou_png" x="399" y="443"/>
+		<e:Image id="quanxuanclick" x="672" y="444" source="3_png"/>
+		<e:Image source="chuangjianfangjian_json.input" x="352" y="627"/>
+		<e:Image id="chuantongclick" source="chuangjianfangjian_json.nolsel" x="974" y="420"/>
+		<e:Image source="chuangjianfangjian_json.quan4" x="452" y="139"/>
+		<e:Image source="chuangjianfangjian_json.quan8" x="689" y="136"/>
+		<e:Image source="chuangjianfangjian_json.sel1" x="151" y="149"/>
+		<e:Image source="chuangjianfangjian_json.sel2" x="157" y="311"/>
+		<e:Image source="chuangjianfangjian_json.sel3" x="145" y="639"/>
+		<e:Image source="chuangjianfangjian_json.spe" x="385" y="536"/>
+		<e:Image id="dianpaoclick" x="672" y="373" source="dianpaoyijiafu_png"/>
+		<e:Image id="siclick" source="chuangjianfangjian_json.vipbtn3" x="505" y="212"/>
+		<e:Image id="baclick" source="chuangjianfangjian_json.vipbtn3" x="747" y="209"/>
+		<e:Image id="chuantonggou" source="chuangjianfangjian_json.vipbtn4" x="1182" y="427"/>
+		<e:Image id="lougou" source="chuangjianfangjian_json.vipbtn4" x="606" y="380" visible="false"/>
+		<e:Image id="hongzhonglougou" source="chuangjianfangjian_json.vipbtn4" x="606" y="451" visible="false"/>
+		<e:Image id="quanxuangou" source="chuangjianfangjian_json.vipbtn4" x="881" y="451" visible="false"/>
+		<e:Image id="hongzhonggou" source="chuangjianfangjian_json.vipbtn4" x="609" y="315" visible="false"/>
+		<e:Image id="dianpaogou" source="chuangjianfangjian_json.vipbtn4" x="882" y="379" visible="false"/>
+		<e:Image id="jiagou" source="chuangjianfangjian_json.vipbtn4" x="879" y="313" visible="false"/>
+		<e:Image id="sigou" source="chuangjianfangjian_json.vipbtn4" x="515" y="220"/>
+		<e:Image id="bagou" source="chuangjianfangjian_json.vipbtn4" x="756" y="217" visible="false"/>
+		<e:Image id="creatBtn" source="chuangjianfangjian_json.create_room_btn" x="968" y="620"/>
+		<e:EditableText id="passwordtxt" width="536" height="59" x="356" y="631" textColor="0x000000" size="53"/>
+	</e:Group>
+	<e:Group id="mimaGroup" width="1282" height="722" x="0" y="0" locked="true" visible="false">
+		<e:Rect width="1282" height="724" x="0" y="0" strokeAlpha="1" fillAlpha="0.26"/>
+		<e:Image source="jiesu_json.popMsgBg" x="259" y="136" width="775" height="471"/>
+		<e:Label text="请输入密码" x="505" y="184" size="53" textColor="0x0B0A0A"/>
+		<e:Button id="joinBtn" label="确定" x="522" y="446" width="238" height="66"/>
+		<e:Rect width="516" height="86" x="378" y="276" fillColor="0xFFFFFF"/>
+		<e:EditableText id="inputPass" width="510" height="82" x="380" y="277" textColor="0x0A0909" textAlign="center" size="60" verticalAlign="middle"/>
+		<e:Image id="mimaCloseBtn" source="shezhi_json.close (2)_png" x="964" y="134"/>
+	</e:Group>
+</e:Skin>

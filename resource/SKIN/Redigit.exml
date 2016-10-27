@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DatingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="chuangjianfangjian_json.MengBgImage"/>
+	<e:Image id="regitBtn" source="denglu_json.9" x="516" verticalCenter="262.5"/>
+	<e:EditableText id="idTxt" width="538" height="58" x="460" y="280" size="50" textColor="0x040000" textAlign="center" background="true"/>
+	<e:EditableText id="nameTxt" width="538" height="58" x="460" y="176" size="50" textColor="0x040000" textAlign="center" background="true"/>
+	<e:EditableText id="passwordTxt" width="537" height="52" x="460" y="380" size="50" textColor="0x040000" textAlign="center" displayAsPassword="true" background="true"/>
+	<e:EditableText id="passwordTxt2" width="537" height="52" x="461" y="480" size="50" textColor="0x040000" textAlign="center" displayAsPassword="true" background="true"/>
+	<e:Image id="closeBtn" source="jiesu_json.back (2)" x="23" y="19"/>
+	<e:Label text="玩家昵称：" x="253" y="190" size="35"/>
+	<e:Label text="游戏账号：" x="253" y="290" size="35"/>
+	<e:Label text="游戏密码：" x="253" y="390" size="35"/>
+	<e:Label text="确认密码：" x="253" y="490" size="35"/>
+	<e:Label text="注册帐号" y="34" size="50" horizontalCenter="0"/>
+</e:Skin>

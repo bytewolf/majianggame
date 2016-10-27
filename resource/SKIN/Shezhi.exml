@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Shezhi" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillAlpha="0.74" locked="true"/>
+	<e:Image horizontalCenter="20" verticalCenter="-7.5" source="shezhi_json.set_bg_png"/>
+	<e:Image id="closeBtn" x="940" y="107" source="shezhi_json.close (2)_png"/>
+	<e:Image id="qingsongBtn" x="533" y="418" source="shezhi_json.music0_png"/>
+	<e:Image id="youxianBtn" x="686" y="418" source="shezhi_json.music1_png"/>
+	<e:Image id="jingdianBtn" x="828" y="418" source="shezhi_json.music2_png"/>
+	<e:Image id="qingsongPng" x="533" y="418" source="shezhi_json.music0_selected_png"/>
+	<e:Image id="youxianPng" x="686" y="418" source="shezhi_json.music1_selected_png"/>
+	<e:Image id="jingdianPng" x="829" y="418" source="shezhi_json.music2_selected_png"/>
+	<e:HSlider id="bgSound" x="573" y="191" width="267" skinName="OwnSlider"/>
+	<e:HSlider id="yxSound" x="573" y="266" width="269" skinName="OwnSlider"/>
+	<e:Label text="1.0.0" x="573" y="347" textColor="0x050000" size="29"/>
+	<e:Image id="jiesanBtn" source="jiesan_png" x="692" y="310" visible="false"/>
+</e:Skin>

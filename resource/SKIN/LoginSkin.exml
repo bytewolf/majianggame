@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DatingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="denglu_json.19" x="0" y="0"/>
+	<e:Image source="denglu_json.16" x="46" y="225"/>
+	<e:Image source="denglu_json.17" x="34" y="12"/>
+	<e:Image source="denglu_json.13" x="191" y="300"/>
+	<e:Image source="denglu_json.12" x="424" y="470"/>
+	<e:Image source="denglu_json.11" x="566" y="17"/>
+	<e:Image source="denglu_json.14" x="100" y="364"/>
+	<e:Image source="denglu_json.15" x="97" y="312"/>
+	<e:Image source="denglu_json.18" x="1" y="624"/>
+	<e:Image id="jizhuBtn" source="denglu_json.2" x="376" y="464"/>
+	<e:Image source="denglu_json.3" x="897" y="655"/>
+	<e:Image id="tongyiBtn" source="denglu_json.2" x="836" y="655"/>
+	<e:Image id="tongyiGou" source="denglu_json.1" x="836" y="661"/>
+	<e:Image id="jizhuGou" source="denglu_json.1" x="379" y="470" locked="true"/>
+	<e:Image id="quiteBtn" source="denglu_json.4" x="361" verticalCenter="192.5"/>
+	<e:Image id="wxBtn" source="denglu_json.5" x="361" bottom="0" visible="false"/>
+	<e:Image id="searchPassBtn" source="denglu_json.6" x="89" bottom="0" visible="false"/>
+	<e:Image id="loginBtn" source="denglu_json.7" x="97" y="442" fillMode="scale"/>
+	<e:Image id="wanfaBtn" source="denglu_json.8" x="1070" y="9" visible="false"/>
+	<e:Image id="regitBtn" source="denglu_json.9" x="94" verticalCenter="192.5"/>
+	<e:EditableText id="idTxt" width="361" height="43" x="206" y="310" size="50" textColor="0x040000" textAlign="center" text=""/>
+	<e:EditableText id="passwordTxt" width="361" height="52" x="207" y="359" size="50" textColor="0x040000" textAlign="center" displayAsPassword="true"/>
+	<e:Label text="v1.0.2" x="1161" y="17"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="JiluSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="record_bg_png" x="0" y="0" height="720"/>
+	<e:Scroller id="srcoller" width="1236" height="563" x="21" y="137">
+		<e:Group id="ListGroup">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="closeBtn" source="jiesu_json.back (2)" x="1173" y="23"/>
+</e:Skin>
